@@ -9,4 +9,4 @@ echo "#################################################"
 
 WORKSPACE="workspace"
 cd $HOME/SDN/dreamer-ryu/ryu/app
-ryu-manager --observe-links ofctl_rest.py rest_topology
+ryu-manager --observe-links ofctl_rest.py rest_topology.py
